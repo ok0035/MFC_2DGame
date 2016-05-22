@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GAME_PROJECT.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME_PROJECTDoc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME_PROJECTView.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GAME_PROJECT.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME_PROJECTDoc.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME_PROJECTView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GAME_PROJECT.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GAME_PROJECT.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\GAME_PROJECTDoc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\GAME_PROJECT.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\제갈공명.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\stage\스테이지1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\stage\스테이지2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\stage\스테이지3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\stage\스테이지4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\stage\스테이지5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\stage\스테이지6.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\stage\스테이지7.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\stage\스테이지8.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\stage\스테이지9.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\stage\스테이지10.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\enemy\enemy1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\enemy\enemy2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\enemy\enemy3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\enemy\enemy4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\enemy\enemy5.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\enemy\enemy6.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\enemy\enemy7.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\enemy\enemy8.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\enemy\enemy9.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\player\제갈공명.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
