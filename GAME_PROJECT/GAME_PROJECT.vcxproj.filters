@@ -147,5 +147,11 @@
     <Image Include="res\player\제갈공명.bmp">
       <Filter>리소스 파일</Filter>
     </Image>
+    <Image Include="res\Main\main.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Main\End.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
   </ItemGroup>
 </Project>

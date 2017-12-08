@@ -121,6 +121,10 @@ IDB_enemy8              BITMAP                  "res\\enemy\\enemy8.bmp"
 
 IDB_enemy9              BITMAP                  "res\\enemy\\enemy9.bmp"
 
+IDB_MAIN                BITMAP                  "res\\Main\\main.bmp"
+
+IDB_END                 BITMAP                  "res\\Main\\End.bmp"
+
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -180,6 +184,12 @@ BEGIN
     POPUP "도움말(&H)"
     BEGIN
         MENUITEM "GAME_PROJECT 정보(&A)...",      ID_APP_ABOUT
+    END
+    POPUP "메뉴"
+    BEGIN
+        MENUITEM "새  게 임",                      ID_32771
+        MENUITEM "일시정지",                        ID_32772
+        MENUITEM "계속하기",                        ID_32773
     END
 END
 

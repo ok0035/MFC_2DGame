@@ -231,6 +231,8 @@
     <Image Include="res\enemy\enemy9.bmp" />
     <Image Include="res\GAME_PROJECT.ico" />
     <Image Include="res\GAME_PROJECTDoc.ico" />
+    <Image Include="res\Main\End.bmp" />
+    <Image Include="res\Main\main.bmp" />
     <Image Include="res\player\제갈공명.bmp" />
     <Image Include="res\stage\스테이지1.bmp" />
     <Image Include="res\stage\스테이지10.bmp" />

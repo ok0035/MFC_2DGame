@@ -33,7 +33,7 @@ Player::~Player()
 void Player::Move() {
 	//캐릭터의 움직임 표현
 
-	srand((unsigned)time(NULL));
+
 	int rn = rand() % 5;
 
 	if (abs(current_x - des_x) > abs(current_y - des_y)) {
@@ -81,10 +81,10 @@ void Player::Move() {
 	else return;
 
 	//캐릭터가 보는 방향
-	if (des_x > current_x) isRight = TRUE;
-	else if (des_x < current_x) isRight = FALSE;
-	else return;
+	SeePlayer();
 }
+
+
 
 void Player::Motion() {
 	if (isMotion == TRUE) isMotion = FALSE;
@@ -149,4 +149,19 @@ void Player::SetRandomCurrentX()
 void Player::SetRandomCurrentY()
 {
 	current_y = (rand() % 300) + 300;
+}
+
+
+void Player::SeePlayer()
+{
+	//캐릭터가 보는 방향
+	if (des_x > current_x) isRight = TRUE;
+	else isRight = FALSE;
+}
+
+
+void Player::SetCurrentPoint(int x, int y)
+{
+	current_x = x;
+	current_y = y;
 }

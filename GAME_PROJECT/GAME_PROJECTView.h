@@ -56,8 +56,24 @@ public:
 	afx_msg void OnKeyDown(UINT nChar, UINT nRepCnt, UINT nFlags);
 	int gameType;
 	Player *player;
-	Player *enemy[10];
+	Player *enemy[14];
 	int GetRandomNum(int range);
+	void InitPoint();
+	bool isClear;
+	int remainTime;
+	afx_msg BOOL OnEraseBkgnd(CDC* pDC);
+	int playTime;
+	bool isNextStage;
+
+	//새게임, 일시정지, 계속하기
+	afx_msg void On32771();
+	afx_msg void On32772();
+	afx_msg void On32773();
+
+	bool isPause;
+	bool isFirstStage;
+	bool isEnd;
+	int moveTime;
 };
 
 #ifndef _DEBUG  // GAME_PROJECTView.cpp의 디버그 버전
